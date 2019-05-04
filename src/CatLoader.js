@@ -6,9 +6,7 @@ import {fetchRandomCat} from './catApi'
 export class CatLoader extends React.Component {
   fetchCat = () =>{
     fetchRandomCat().then(data=>{
-      let file=data.file;
-      file=file.replace("\\","")
-      this.props.mainCat(file);
+      this.props.mainCat(data.file);
     })
   }
   componentDidMount() {
