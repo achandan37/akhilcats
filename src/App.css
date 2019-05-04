@@ -1,0 +1,46 @@
+@media(max-width:769px){
+	.container{
+		max-width:100%
+	}
+}
+@media(min-width:768px){
+	.container{
+		max-width:50%
+	}
+}
+
+.container{
+	text-align: center;
+	background-color: #f9f9f9;
+}
+
+.container .JumboCatImg{
+	max-width:100%;
+	max-height:40vh;
+	margin-bottom:24px;
+}
+.container button {
+    float: right;
+    clear: both;
+    min-width: 80px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+}
+.container .catshowcase{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom:24px;
+    flex-wrap:wrap;
+}
+.container .showcase{
+	width:100px;
+	max-height:100px;
+	margin-top:12px;
+	margin-bottom:12px;
+}
+
+.container button.btn-info{
+	float:none;
+	display: inline-block;
+}
